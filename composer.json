@@ -1,0 +1,14 @@
+{
+	"name": "infrajs/layer-meta",
+	"homepage":"https://github.com/infrajs/layer-meta",
+	"license": "GPL3",
+	"autoload": {
+		"psr-4": { "infrajs\\layer\\meta\\": "/" }
+	},
+	"require":{
+		"infrajs/controller":"~1",
+		"infrajs/template":"~1",
+		"infrajs/event":"~1",
+		"infrajs/load":"~1"
+	}
+}
